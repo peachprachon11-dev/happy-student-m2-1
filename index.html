@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบตรวจเช็คความสุข ม.2/1</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://img2.pic.in.th/logo-253x300-1.png" class="school-logo" alt="Logo">
+        <h1>ระบบตรวจเช็คความสุขประจำวันของนักเรียนชั้น ม.2/1</h1>
+        <p class="school-name">โรงเรียนปราจิณราษฎรอำรุง</p>
+
+        <div class="camera-section">
+            <div id="loading">⌛ กำลังเตรียม AI...</div>
+            <video id="video" width="640" height="480" autoplay muted playsinline></video>
+        </div>
+
+        <div id="result-card" class="hidden">
+            <span id="emoji-icon">😊</span>
+            <h2 id="emotion-label">ตรวจจับอารมณ์...</h2>
+        </div>
+
+        <footer>Create By P.pachon @2026</footer>
+    </div>
+</body>
+</html>
